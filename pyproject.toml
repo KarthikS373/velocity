@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "velocity"
+version = "0.1.0"
+description = "Velocity is a financial acceleration platform, offering the ultimate trading edge through its lightning-fast engine for backtesting, algorithmic trading and in-depth research"
+authors = ["KarthikS373 <lit2021012@iiitl.ac.in>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+dateparser = "^1.1.8"
+dill = "^0.3.7"
+imageio = "^2.31.5"
+ipywidgets = "^8.1.1"
+matplotlib = "^3.8.0"
+mypy-extensions = "^1.0.0"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+plotly = "^5.17.0"
+pytz = "^2023.3.post1"
+python = ">=3.11,<3.13"
+requests = "^2.31.0"
+schedule = "^1.2.1"
+scikit-learn = "^1.3.1"
+scipy = "^1.11.3"
+typing-extensions = "^4.8.0"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
